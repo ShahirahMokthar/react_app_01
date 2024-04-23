@@ -5,10 +5,10 @@ import VideoContainer from '../app/videocontainer';
 function MyRootComponent() {
     return ( 
         <div>
-            <h1>Root Component</h1>
-            My Logo
-            <br />
-            <Logo></Logo>
+            <div style={{color:"red"}}>
+              <Logo></Logo>  
+            </div>
+            
             <VideoContainer></VideoContainer>
         </div>
      );
