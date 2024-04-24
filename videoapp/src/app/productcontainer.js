@@ -8,7 +8,8 @@ function ProductContainer() {
             padding: "10px",
             display:"flex",
             flexDirection:"column",
-            marginTop:"10px"
+            marginTop:"10px",
+            
         }}>
             <div style={{
                 padding:"10px"

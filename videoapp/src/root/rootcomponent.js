@@ -2,6 +2,7 @@ import React from 'react';
 import Logo from '../app/logo';
 import VideoContainer from '../app/videocontainer';
 import ProductContainer from '../app/productcontainer';
+import AddVideo from '../app/addvideo';
 
 function MyRootComponent() {
     return ( 
@@ -20,6 +21,8 @@ function MyRootComponent() {
             
             <VideoContainer></VideoContainer>
             <ProductContainer></ProductContainer>
+            <AddVideo></AddVideo>
+
         </div>
      );
 }
