@@ -3,6 +3,7 @@ import Logo from '../app/logo';
 import VideoContainer from '../app/videocontainer';
 import ProductContainer from '../app/productcontainer';
 import AddVideo from '../app/addvideo';
+import APIComponent from '../app/remoteapi';
 
 function MyRootComponent() {
     return ( 
@@ -22,6 +23,8 @@ function MyRootComponent() {
             <VideoContainer></VideoContainer>
             <ProductContainer></ProductContainer>
             <AddVideo></AddVideo>
+            <APIComponent></APIComponent>
+            
 
         </div>
      );
